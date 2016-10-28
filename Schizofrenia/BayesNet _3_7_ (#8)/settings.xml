@@ -7,6 +7,8 @@
 </config>
 <config key="model">
 <entry key="ClassColumn" type="xstring" value="Col0 (#2)"/>
+<entry key="keep_training_instances" type="xboolean" value="true"/>
+<entry key="VectorColumn" type="xstring" isnull="true" value=""/>
 <config key="weka-optionhandler-settings">
 <entry key="D" type="xboolean" value="true"/>
 <entry key="B" type="xstring" value=""/>
@@ -15,33 +17,33 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.ext.weka37.classifier.WekaClassifierNodeFactory"/>
-<entry key="node-name" type="xstring" value="BayesNet (3.7)"/>
+<entry key="node-name" type="xstring" value="BayesNet (3.7) (deprecated)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.weka_3.7"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="2.12.0.0047562"/>
+<entry key="node-bundle-version" type="xstring" value="3.2.0.v201606201535"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Weka Data Mining Integration (3.7)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.weka_3.7.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.2.0.v201606201535"/>
 <config key="factory_settings">
 <entry key="weka-class" type="xstring" value="weka.classifiers.bayes.BayesNet"/>
 <entry key="weka-version" type="xstring" value="3.7"/>
+<entry key="weka_nodes_version" type="xstring" value="V0"/>
 </config>
-<entry key="name" type="xstring" value="BayesNet (3.7)"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="name" type="xstring" value="BayesNet (3.7) (deprecated)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelPortObject"/>
-<entry key="port_object_summary" type="xstring" value="BayesNet"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="035ca09c-0aaa-4010-a3cd-a9018a6616fb"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
